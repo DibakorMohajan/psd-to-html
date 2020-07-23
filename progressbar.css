@@ -1,0 +1,71 @@
+svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: black;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 6;
+}
+
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+svg.radial-progress text {
+  fill: #fff;
+  text-anchor: middle;
+}
+
+
+.progressbar_txt h3{
+  text-align:center;
+    font-size:24px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:700;
+  color:#3c4761;
+  margin-top:10px;
+}
+
+
+svg.radial-progress.circleone circle{
+  stroke:#30bae7;
+}
+
+svg.radial-progress.circletwo circle{
+  stroke:#d74680;
+}
+
+svg.radial-progress.circlethree circle{
+  stroke:#15c7a8;
+}
+
+svg.radial-progress.circlefour circle{
+  stroke:#eb7d4b;
+}
+
+svg.radial-progress text{
+  fill: #3c4761;
+}
+
+svg.radial-progress circle.incomplete{
+  stroke:#dfe8ed;
+}
+
+/*svg.radial-progress circle.incomplete.inone{
+  stroke:#ffbb33;
+}
+svg.radial-progress circle.incomplete.intwo{
+  stroke:#ff4dc4;
+}
+svg.radial-progress circle.incomplete.inthree{
+  stroke:#004d99;
+}
+svg.radial-progress circle.incomplete.infour{
+  stroke:#4ce600;
+}*/
